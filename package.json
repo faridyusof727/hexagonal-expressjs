@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "serve": "ts-node ./src/api/server.ts",
+    "cli": "ts-node ./src/cmd/exec.ts",
     "build": "tsc"
   },
   "keywords": [],
